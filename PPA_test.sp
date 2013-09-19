@@ -1,0 +1,526 @@
+** Generated for: hspiceD
+** Generated on: May 26 21:39:32 2013
+** Design library name: my
+** Design cell name: PPA_test
+** Design view name: schematic
+.GLOBAL vdd!
+
+
+.TRAN 1e-12 5E-9 START=0.0 SWEEP DATA=D
+.DATA D
++	A0_	A1_	A2_	A3_	A4_	A5_	A6_	A7_	A8_	A9_	A10_	A11_	A12_	A13_	A14_	A15_	A16_	A17_	A18_	A19_	A20_	A21_	A22_	A23_	A24_	A25_	A26_	A27_	A28_	A29_	A30_	A31_	B0_	B1_	B2_	B3_	B4_	B5_	B6_	B7_	B8_	B9_	B10_	B11_	B12_	B13_	B14_	B15_	B16_	B17_	B18_	B19_	B20_	B21_	B22_	B23_	B24_	B25_	B26_	B27_	B28_	B29_	B30_	B31_	!A0_	!A1_	!A2_	!A3_	!A4_	!A5_	!A6_	!A7_	!A8_	!A9_	!A10_	!A11_	!A12_	!A13_	!A14_	!A15_	!A16_	!A17_	!A18_	!A19_	!A20_	!A21_	!A22_	!A23_	!A24_	!A25_	!A26_	!A27_	!A28_	!A29_	!A30_	!A31_	!B0_	!B1_	!B2_	!B3_	!B4_	!B5_	!B6_	!B7_	!B8_	!B9_	!B10_	!B11_	!B12_	!B13_	!B14_	!B15_	!B16_	!B17_	!B18_	!B19_	!B20_	!B21_	!B22_	!B23_	!B24_	!B25_	!B26_	!B27_	!B28_	!B29_	!B30_	!B31_
+**+	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1
+**+	1.1	0	0	1.1	0	0	1.1	0	0	1.1	1.1	0	0	1.1	1.1	1.1	0	0	1.1	1.1	1.1	1.1	1.1	0	1.1	0	1.1	1.1	1.1	1.1	1.1	0	0	0	1.1	0	0	1.1	0	0	0	0	1.1	0	1.1	1.1	0	0	0	0	1.1	0	1.1	0	0	0	1.1	0	1.1	0	0	0	0	0	0	1.1	1.1	0	1.1	1.1	0	1.1	1.1	0	0	1.1	1.1	0	0	0	1.1	1.1	0	0	0	0	0	1.1	0	1.1	0	0	0	0	0	1.1	1.1	1.1	0	1.1	1.1	0	1.1	1.1	1.1	1.1	0	1.1	0	0	1.1	1.1	1.1	1.1	0	1.1	0	1.1	1.1	1.1	0	1.1	0	1.1	1.1	1.1	1.1	1.1
+**+	1.1	0	1.1	1.1	1.1	0	1.1	0	0	0	0	1.1	0	0	0	1.1	1.1	0	0	1.1	1.1	1.1	1.1	1.1	1.1	1.1	0	1.1	1.1	0	1.1	1.1	1.1	1.1	0	1.1	1.1	1.1	1.1	0	1.1	0	0	1.1	1.1	0	0	0	1.1	0	1.1	1.1	0	1.1	0	0	0	1.1	0	1.1	0	0	0	0	0	1.1	0	0	0	1.1	0	1.1	1.1	1.1	1.1	0	1.1	1.1	1.1	0	0	1.1	1.1	0	0	0	0	0	0	0	1.1	0	0	1.1	0	0	0	0	1.1	0	0	0	0	1.1	0	1.1	1.1	0	0	1.1	1.1	1.1	0	1.1	0	0	1.1	0	1.1	1.1	1.1	0	1.1	0	1.1	1.1	1.1	1.1
+**+	0	1.1	0	0	1.1	1.1	1.1	0	0	1.1	0	0	0	1.1	1.1	0	1.1	0	0	0	1.1	1.1	1.1	1.1	1.1	1.1	1.1	0	1.1	1.1	1.1	0	1.1	0	1.1	1.1	1.1	0	1.1	0	0	0	1.1	1.1	1.1	1.1	0	1.1	0	0	0	1.1	1.1	1.1	0	0	1.1	1.1	1.1	0	0	0	0	0	1.1	0	1.1	1.1	0	0	0	1.1	1.1	0	1.1	1.1	1.1	0	0	1.1	0	1.1	1.1	1.1	0	0	0	0	0	0	0	1.1	0	0	0	1.1	0	1.1	0	0	0	1.1	0	1.1	1.1	1.1	0	0	0	0	1.1	0	1.1	1.1	1.1	0	0	0	1.1	1.1	0	0	0	1.1	1.1	1.1	1.1	1.1
+**+	0	1.1	1.1	1.1	1.1	0	1.1	1.1	1.1	1.1	0	0	0	1.1	0	0	0	1.1	1.1	1.1	0	1.1	1.1	1.1	1.1	0	0	1.1	0	1.1	0	0	1.1	0	1.1	1.1	1.1	1.1	0	0	1.1	0	0	0	1.1	1.1	0	0	1.1	0	1.1	0	0	0	0	1.1	0	0	1.1	1.1	0	0	1.1	1.1	1.1	0	0	0	0	1.1	0	0	0	0	1.1	1.1	1.1	0	1.1	1.1	1.1	0	0	0	1.1	0	0	0	0	1.1	1.1	0	1.1	0	1.1	1.1	0	1.1	0	0	0	0	1.1	1.1	0	1.1	1.1	1.1	0	0	1.1	1.1	0	1.1	0	1.1	1.1	1.1	1.1	0	1.1	1.1	0	0	1.1	1.1	0	0
+**+	0	1.1	1.1	0	0	1.1	0	0	1.1	0	0	1.1	0	1.1	1.1	0	0	1.1	1.1	0	1.1	0	1.1	0	1.1	1.1	1.1	0	0	1.1	1.1	0	1.1	0	0	0	0	0	1.1	1.1	0	1.1	0	0	1.1	0	0	0	0	1.1	0	0	0	0	0	0	1.1	1.1	0	1.1	0	1.1	0	1.1	1.1	0	0	1.1	1.1	0	1.1	1.1	0	1.1	1.1	0	1.1	0	0	1.1	1.1	0	0	1.1	0	1.1	0	1.1	0	0	0	1.1	1.1	0	0	1.1	0	1.1	1.1	1.1	1.1	1.1	0	0	1.1	0	1.1	1.1	0	1.1	1.1	1.1	1.1	0	1.1	1.1	1.1	1.1	1.1	1.1	0	0	1.1	0	1.1	0	1.1	0
+**+	1.1	1.1	0	1.1	0	1.1	1.1	0	1.1	0	0	1.1	1.1	0	0	1.1	1.1	0	1.1	0	1.1	0	1.1	0	0	0	1.1	1.1	1.1	0	0	1.1	1.1	0	1.1	0	1.1	1.1	0	0	0	0	0	1.1	0	0	0	0	1.1	1.1	1.1	0	0	1.1	0	1.1	0	0	1.1	1.1	1.1	1.1	1.1	1.1	0	0	1.1	0	1.1	0	0	1.1	0	1.1	1.1	0	0	1.1	1.1	0	0	1.1	0	1.1	0	1.1	0	1.1	1.1	1.1	0	0	0	1.1	1.1	0	0	1.1	0	1.1	0	0	1.1	1.1	1.1	1.1	1.1	0	1.1	1.1	1.1	1.1	0	0	0	1.1	1.1	0	1.1	0	1.1	1.1	0	0	0	0	0	0
+**+	1.1	1.1	0	1.1	1.1	1.1	0	1.1	0	1.1	1.1	1.1	0	0	1.1	1.1	1.1	0	1.1	0	0	0	0	1.1	0	0	0	0	1.1	1.1	0	0	1.1	0	0	0	0	0	0	1.1	1.1	1.1	0	0	0	0	0	1.1	1.1	1.1	0	1.1	1.1	1.1	0	1.1	0	0	1.1	1.1	0	0	0	1.1	0	0	1.1	0	0	0	1.1	0	1.1	0	0	0	1.1	1.1	0	0	0	1.1	0	1.1	1.1	1.1	1.1	0	1.1	1.1	1.1	1.1	0	0	1.1	1.1	0	1.1	1.1	1.1	1.1	1.1	1.1	0	0	0	1.1	1.1	1.1	1.1	1.1	0	0	0	1.1	0	0	0	1.1	0	1.1	1.1	0	0	1.1	1.1	1.1	0
+**+	0	0	0	1.1	1.1	0	1.1	0	1.1	1.1	0	1.1	0	1.1	0	1.1	0	1.1	1.1	1.1	0	0	1.1	1.1	0	0	1.1	1.1	1.1	0	1.1	0	0	1.1	0	1.1	1.1	1.1	0	1.1	0	0	0	0	0	0	1.1	0	1.1	0	0	1.1	1.1	1.1	0	1.1	1.1	0	0	1.1	0	1.1	0	1.1	1.1	1.1	1.1	0	0	1.1	0	1.1	0	0	1.1	0	1.1	0	1.1	0	1.1	0	0	0	1.1	1.1	0	0	1.1	1.1	0	0	0	1.1	0	1.1	1.1	0	1.1	0	0	0	1.1	0	1.1	1.1	1.1	1.1	1.1	1.1	0	1.1	0	1.1	1.1	0	0	0	1.1	0	0	1.1	1.1	0	1.1	0	1.1	0
++	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
++	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1	1.1
+
+.ENDDATA 
+
+.OP
+
+.TEMP 25.0
+.OPTION
++    ARTIST=2
++    INGOLD=2
++    PARHIER=LOCAL
++    PSF=2
++    POST
+.INCLUDE "/apps/FreePDK45/ncsu_basekit/models/hspice/hspice_nom.include"
+
+
+
+
+.PRINT TRAN POWER
+.MEASURE TRAN avgpwr AVG POWER FROM 0 to 5e-9
+
+
+** Library name: my
+** Cell name: INV
+** View name: schematic
+.subckt INV in out
+m0 out in vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m1 out in 0 0 NMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+.ends INV
+** End of subcircuit definition.
+
+** Library name: my
+** Cell name: NAND2
+** View name: schematic
+.subckt NAND2 a b out
+m1 net16 b 0 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m0 out a net16 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m3 out b vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m2 out a vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+.ends NAND2
+** End of subcircuit definition.
+
+** Library name: my
+** Cell name: AND2
+** View name: schematic
+.subckt AND2 a b out
+xi0 net7 out INV
+xi1 a b net7 NAND2
+.ends AND2
+** End of subcircuit definition.
+
+** Library name: my
+** Cell name: PC_CTRL
+** View name: schematic
+.subckt PC_CTRL _net1 _net0 a a_ b b_ pc
+xi1 b net17 INV
+xi0 a net18 INV
+xi5 pc net17 _net0 AND2
+xi4 pc b b_ AND2
+xi3 a pc a_ AND2
+xi2 net18 pc _net1 AND2
+.ends PC_CTRL
+** End of subcircuit definition.
+
+** Library name: my
+** Cell name: SP_XOR_DR
+** View name: schematic
+.subckt SP_XOR_DR _net1 _net2 _net0 a b p
+m12 p4 _net0 vdd! vdd! PMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m11 p4 a vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m8 p2 p vdd! vdd! PMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m7 p2 _net1 vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m5 p3 _net0 vdd! vdd! PMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m4 p3 _net1 vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m1 p1 p vdd! vdd! PMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m0 p1 a vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m13 p4 a net033 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m10 net033 b 0 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m9 p2 _net1 net033 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m6 p3 _net1 net2 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m3 net2 _net2 0 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m2 p1 a net2 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+xi14 p4 p3 _net0 NAND2
+xi13 p2 p1 p NAND2
+.ends SP_XOR_DR
+** End of subcircuit definition.
+
+** Library name: my
+** Cell name: SP_AND_DR
+** View name: schematic
+.subckt SP_AND_DR a b out _net1 _net0 out_b
+m10 o2 out_b vdd! vdd! PMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m9 o2 _net0 vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m7 o1 out_b vdd! vdd! PMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m6 o1 _net1 vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m1 net12 out vdd! vdd! PMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m0 net12 a vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m5 o1 _net1 0 0 NMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m8 o2 _net0 0 0 NMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m3 net15 b 0 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m2 net12 a net15 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+xi2 net12 out INV
+xi7 o1 o2 out_b NAND2
+.ends SP_AND_DR
+** End of subcircuit definition.
+
+** Library name: my
+** Cell name: PG_Blk
+** View name: schematic
+.subckt PG_Blk _net0 _net1 _net2 a b g p _net3
+xi0 _net0 _net1 _net2 a b p SP_XOR_DR
+xi1 a b g _net0 _net1 _net3 SP_AND_DR
+.ends PG_Blk
+** End of subcircuit definition.
+
+** Library name: my
+** Cell name: GREY_CELL
+** View name: schematic
+.subckt GREY_CELL _net0 _net1 _net2 _net3 g gi _net4 pi
+m13 net06 net026 vdd! vdd! PMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m12 net06 gi vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m10 net019 _net0 vdd! vdd! PMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m9 net019 _net1 vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m1 net12 net026 vdd! vdd! PMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m0 net12 pi vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m11 net06 gi 0 0 NMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m15 net011 _net2 0 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m14 net011 _net3 0 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m8 net019 _net1 net011 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m3 net15 _net4 0 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m2 net12 pi net15 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+xi13 net019 _net0 INV
+xi10 net06 net12 g NAND2
+.ends GREY_CELL
+** End of subcircuit definition.
+
+** Library name: my
+** Cell name: BLACK_CELL
+** View name: schematic
+.subckt BLACK_CELL _net0 _net1 _net2 _net7 _net3 _net6 g gi _net4 p pi _net5
+xi0 _net0 _net1 _net2 _net3 g gi _net4 pi GREY_CELL
+xi1 pi _net5 p _net3 _net6 _net7 SP_AND_DR
+.ends BLACK_CELL
+** End of subcircuit definition.
+
+** Library name: my
+** Cell name: SP_XOR
+** View name: schematic
+.subckt SP_XOR _net0 _net1 a b p
+m8 p2 p vdd! vdd! PMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m7 p2 _net0 vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m1 p1 p vdd! vdd! PMOS_VTL L=50e-9 W=90e-9 AD=9.45e-15 AS=9.45e-15 PD=300e-9 PS=300e-9 M=1
+m0 p1 a vdd! vdd! PMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m10 net033 b 0 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m9 p2 _net0 net033 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m3 net2 _net1 0 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+m2 p1 a net2 0 NMOS_VTL L=50e-9 W=180e-9 AD=18.9e-15 AS=18.9e-15 PD=390e-9 PS=390e-9 M=1
+xi13 p2 p1 p NAND2
+.ends SP_XOR
+** End of subcircuit definition.
+
+** Library name: my
+** Cell name: PPA
+** View name: schematic
+.subckt PPA a0 a0_b a1 a10 a10_b a11 a11_b a12 a12_b a13 a13_b a14 a14_b a15 a15_b a16 a16_b a17 a17_b a18 a18_b a19 a19_b a1_b a2 a20 a20_b a21 a21_b a22 a22_b a23 a23_b a24 a24_b a25 a25_b a26 a26_b a27 a27_b a28 a28_b a29 a29_b a2_b a3 a30 a30_b a31 a31_b a3_b a4 a4_b a5 a5_b a6 a6_b a7 a7_b a8 a8_b a9 a9_b b0 b0_b b1 b10 b10_b b11 b11_b b12 b12_b b13 b13_b b14 b14_b b15 b15_b b16 b16_b b17 b17_b b18 b18_b b19 b19_b b1_b b2 b20 b20_b b21 b21_b b22 b22_b b23 b23_b b24 b24_b b25 b25_b b26 b26_b b27 b27_b b28 b28_b b29 b29_b b2_b b3 b30 b30_b b31 b31_b b3_b b4 b4_b b5 b5_b b6 b6_b b7 b7_b b8 b8_b b9 b9_b ov s0 s1 s10 s11 s12 s13 s14 s15 s16 s17 s18 s19 s2 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s3 s30 s31 s4 s5 s6 s7 s8 s9
+xi43 a29_b b29_b net093 a29 b29 net0257 net0258 net092 PG_Blk
+xi42 a28_b b28_b net097 a28 b28 net0261 net0262 net096 PG_Blk
+xi41 a30_b b30_b net0101 a30 b30 net0265 net0266 net0100 PG_Blk
+xi40 a31_b b31_b net0105 a31 b31 net0269 net0270 net0104 PG_Blk
+xi39 a24_b b24_b net0109 a24 b24 net0273 net0274 net0108 PG_Blk
+xi38 a25_b b25_b net0113 a25 b25 net0277 net0278 net0112 PG_Blk
+xi37 a26_b b26_b net0117 a26 b26 net0281 net0282 net0116 PG_Blk
+xi36 a27_b b27_b net0121 a27 b27 net0285 net0286 net0120 PG_Blk
+xi35 a21_b b21_b net0125 a21 b21 net0289 net0290 net0124 PG_Blk
+xi34 a20_b b20_b net0129 a20 b20 net0293 net0294 net0128 PG_Blk
+xi33 a22_b b22_b net0133 a22 b22 net0297 net0298 net0132 PG_Blk
+xi32 a23_b b23_b net0137 a23 b23 net0301 net0302 net0136 PG_Blk
+xi31 a17_b b17_b net0141 a17 b17 net0305 net0306 net0140 PG_Blk
+xi30 a16_b b16_b net0145 a16 b16 net0309 net0310 net0144 PG_Blk
+xi29 a18_b b18_b net0149 a18 b18 net0313 net0314 net0148 PG_Blk
+xi28 a19_b b19_b net0153 a19 b19 net0317 net0318 net0152 PG_Blk
+xi27 a12_b b12_b net0157 a12 b12 net0321 net0322 net0156 PG_Blk
+xi26 a13_b b13_b net0161 a13 b13 net0325 net0326 net0160 PG_Blk
+xi25 a14_b b14_b net0165 a14 b14 net0329 net0330 net0164 PG_Blk
+xi24 a15_b b15_b net0169 a15 b15 net0333 net0334 net0168 PG_Blk
+xi23 a9_b b9_b net0173 a9 b9 net0337 net0338 net0172 PG_Blk
+xi22 a8_b b8_b net0177 a8 b8 net0339 net0340 net0176 PG_Blk
+xi21 a10_b b10_b net0181 a10 b10 net0341 net0342 net0180 PG_Blk
+xi20 a11_b b11_b net0185 a11 b11 net0345 net0346 net0184 PG_Blk
+xi19 a4_b b4_b net0189 a4 b4 net0349 net0350 net0188 PG_Blk
+xi18 a5_b b5_b net0193 a5 b5 net0351 net0352 net0192 PG_Blk
+xi17 a6_b b6_b net0197 a6 b6 net0353 net0354 net0196 PG_Blk
+xi16 a7_b b7_b net0201 a7 b7 net0355 net0356 net0200 PG_Blk
+xi3 a3_b b3_b net2 a3 b3 net90 net49 net1 PG_Blk
+xi2 a2_b b2_b net38 a2 b2 net96 net03 net5 PG_Blk
+xi1 a1_b b1_b net37 a1 b1 net82 net05 net9 PG_Blk
+xi0 a0_b b0_b net14 a0 b0 net83 net07 net01524 PG_Blk
+xi196 net01340 net01528 net01372 net01527 net0551 net01180 net01186 net01098 GREY_CELL
+xi195 net01342 net01522 net01570 net01521 net0552 net01196 net01304 net01172 GREY_CELL
+xi194 net01350 net01516 net01574 net01515 net0556 net01216 net0604 net01094 GREY_CELL
+xi193 net01346 net01504 net01378 net01503 net0582 net01171 net01189 net01173 GREY_CELL
+xi192 net01348 net01510 net01582 net01509 net0555 net01093 net01190 net01092 GREY_CELL
+xi191 0 net01546 net01360 net01545 ov net01105 net0561 net01104 GREY_CELL
+xi190 net01338 net01540 net01370 net01539 net0550 net01103 net0600 net01225 GREY_CELL
+xi189 net01336 net01534 net01594 net01533 net0549 net01146 net01267 net01100 GREY_CELL
+xi188 net01362 net01459 net01524 net01458 net0562 net0967 net83 net0966 GREY_CELL
+xi187 net01364 net01490 net01262 net01489 net0563 net01143 net64 net01038 GREY_CELL
+xi186 net01366 net01484 net01585 net01483 net0564 net01037 net0894 net01116 GREY_CELL
+xi185 net01358 net01478 net01001 net01477 net0599 net01115 net068 net01034 GREY_CELL
+xi184 net01356 net01454 net01388 net01453 net0593 net01027 net01275 net01154 GREY_CELL
+xi183 net01354 net01133 net01184 net01139 net0558 net01106 net0892 net01028 GREY_CELL
+xi182 net01352 net01466 net01384 net01465 net0557 net01117 net0573 net01091 GREY_CELL
+xi181 net01344 net01472 net01376 net01471 net0609 net01097 net0569 net01032 GREY_CELL
+xi164 net01372 net01266 net01388 net01265 net01186 net0996 net01275 net0995 GREY_CELL
+xi163 net01370 net01272 net01184 net01271 net0600 net0925 net0892 net0924 GREY_CELL
+xi162 net01360 net01284 net01376 net01283 net0561 net0980 net0569 net0961 GREY_CELL
+xi161 net01594 net01278 net01384 net01277 net01267 net0927 net0573 net0926 GREY_CELL
+xi160 net01570 net01290 net01001 net01289 net01304 net0931 net068 net0930 GREY_CELL
+xi159 net01574 net01296 net01585 net01295 net0604 net0933 net0894 net0932 GREY_CELL
+xi158 net01582 net01302 net01262 net01301 net01190 net01040 net64 net01009 GREY_CELL
+xi157 net01378 net01308 net01524 net01307 net01189 net0969 net83 net0994 GREY_CELL
+xi132 net01384 net0941 net01585 net0940 net0573 net0702 net0894 net0690 GREY_CELL
+xi131 net01376 net0935 net01001 net0934 net0569 net0670 net068 net0692 GREY_CELL
+xi130 net01388 net0953 net01524 net0952 net01275 net0580 net83 net0579 GREY_CELL
+xi129 net01184 net0947 net01262 net0946 net0892 net0682 net64 net0681 GREY_CELL
+xi6 net01001 net20 net01262 net19 net068 net86 net64 net78 GREY_CELL
+xi5 net01585 net24 net01524 net35 net0894 net79 net83 net81 GREY_CELL
+xi4 net01262 net9 net01524 net37 net64 net82 net83 net05 GREY_CELL
+xi180 net01504 net01212 net01260 net01503 net01211 net01259 net01171 net0905 net0921 net01173 net0904 net01026 BLACK_CELL
+xi179 net01510 net01206 net01254 net01509 net01205 net01253 net01093 net0903 net0919 net01092 net0902 net0997 BLACK_CELL
+xi178 net01516 net01200 net01248 net01515 net01199 net01247 net01216 net0901 net0991 net01094 net0900 net01031 BLACK_CELL
+xi177 net01522 net01194 net01242 net01521 net01193 net01241 net01196 net0899 net0915 net01172 net0898 net01033 BLACK_CELL
+xi176 net01528 net01170 net01218 net01527 net01169 net01217 net01180 net0891 net0907 net01098 net0890 net0906 BLACK_CELL
+xi175 net01534 net01182 net01230 net01533 net01181 net01229 net01146 net0895 net0975 net01100 net01022 net0984 BLACK_CELL
+xi174 net01540 net01176 net01224 net01539 net01175 net01223 net01103 net0893 net0909 net01225 net01039 net0908 BLACK_CELL
+xi173 net01546 net01188 net01236 net01545 net01187 net01235 net01105 net0897 net0913 net01104 net0896 net0912 BLACK_CELL
+xi172 net01454 net01218 net01266 net01453 net01217 net01265 net01027 net0907 net0996 net01154 net0906 net0995 BLACK_CELL
+xi171 net01133 net01224 net01272 net01139 net01223 net01271 net01106 net0909 net0925 net01028 net0908 net0924 BLACK_CELL
+xi170 net01466 net01230 net01278 net01465 net01229 net01277 net01117 net0975 net0927 net01091 net0984 net0926 BLACK_CELL
+xi169 net01472 net01236 net01284 net01471 net01235 net01283 net01097 net0913 net0980 net01032 net0912 net0961 BLACK_CELL
+xi168 net01478 net01242 net01290 net01477 net01241 net01289 net01115 net0915 net0931 net01034 net01033 net0930 BLACK_CELL
+xi167 net01484 net01248 net01296 net01483 net01247 net01295 net01037 net0991 net0933 net01116 net01031 net0932 BLACK_CELL
+xi166 net01490 net01254 net01302 net01489 net01253 net01301 net01143 net0919 net01040 net01038 net0997 net01009 BLACK_CELL
+xi165 net01459 net01260 net01308 net01458 net01259 net01307 net0967 net0921 net0969 net0966 net01026 net0994 BLACK_CELL
+xi156 net01170 net01006 net01054 net01169 net01005 net01053 net0891 net0716 net0732 net0890 net0715 net0731 BLACK_CELL
+xi155 net01176 net01012 net01048 net01175 net01011 net01047 net0893 net0718 net0730 net01039 net0717 net0729 BLACK_CELL
+xi154 net01182 net01018 net01036 net01181 net01017 net01035 net0895 net0720 net0726 net01022 net0719 net0725 BLACK_CELL
+xi153 net01188 net01024 net01030 net01187 net01023 net01029 net0897 net0722 net0724 net0896 net0721 net0723 BLACK_CELL
+xi152 net01194 net01030 net01042 net01193 net01029 net01041 net0899 net0724 net0728 net0898 net0723 net0727 BLACK_CELL
+xi151 net01200 net01036 net01060 net01199 net01035 net01059 net0901 net0726 net0734 net0900 net0725 net0733 BLACK_CELL
+xi150 net01206 net01048 net01066 net01205 net01047 net01065 net0903 net0730 net0736 net0902 net0729 net0735 BLACK_CELL
+xi149 net01212 net01054 net01072 net01211 net01053 net01071 net0905 net0732 net0738 net0904 net0731 net0737 BLACK_CELL
+xi148 net01218 net01072 net01096 net01217 net01071 net01095 net0907 net0738 net0746 net0906 net0737 net0745 BLACK_CELL
+xi147 net01224 net01066 net01102 net01223 net01065 net01101 net0909 net0736 net0748 net0908 net0735 net0747 BLACK_CELL
+xi146 net01230 net01060 net01114 net01229 net01059 net01113 net0975 net0734 net0752 net0984 net0733 net0751 BLACK_CELL
+xi145 net01236 net01042 net01120 net01235 net01041 net01119 net0913 net0728 net0754 net0912 net0727 net0753 BLACK_CELL
+xi144 net01242 net01120 net01108 net01241 net01119 net01107 net0915 net0754 net0750 net01033 net0753 net0749 BLACK_CELL
+xi143 net01248 net01114 net01090 net01247 net01113 net01089 net0991 net0752 net0744 net01031 net0751 net0743 BLACK_CELL
+xi142 net01254 net01102 net01084 net01253 net01101 net01083 net0919 net0748 net0742 net0997 net0747 net0741 BLACK_CELL
+xi141 net01260 net01096 net01078 net01259 net01095 net01077 net0921 net0746 net0740 net01026 net0745 net0739 BLACK_CELL
+xi140 net01266 net01078 net0929 net01265 net01077 net0928 net0996 net0740 net0652 net0995 net0739 net0699 BLACK_CELL
+xi139 net01272 net01084 net0923 net01271 net01083 net0922 net0925 net0742 net0676 net0924 net0741 net0695 BLACK_CELL
+xi138 net01278 net01090 net0917 net01277 net01089 net0916 net0927 net0744 net0684 net0926 net0743 net0671 BLACK_CELL
+xi137 net01284 net01108 net0911 net01283 net01107 net0910 net0980 net0750 net0693 net0961 net0749 net0689 BLACK_CELL
+xi136 net01290 net0911 net0935 net01289 net0910 net0934 net0931 net0693 net0670 net0930 net0689 net0692 BLACK_CELL
+xi135 net01296 net0917 net0941 net01295 net0916 net0940 net0933 net0684 net0702 net0932 net0671 net0690 BLACK_CELL
+xi134 net01302 net0923 net0947 net01301 net0922 net0946 net01040 net0676 net0682 net01009 net0695 net0681 BLACK_CELL
+xi133 net01308 net0929 net0953 net01307 net0928 net0952 net0969 net0652 net0580 net0994 net0699 net0579 BLACK_CELL
+xi128 net01006 net0542 net0560 net01005 net0541 net0559 net0716 net0798 net0804 net0715 net0797 net0803 BLACK_CELL
+xi127 net01012 net0524 net0554 net01011 net0523 net0553 net0718 net0792 net0802 net0717 net0791 net0801 BLACK_CELL
+xi126 net01018 net0530 net0542 net01017 net0529 net0541 net0720 net0794 net0798 net0719 net0793 net0797 BLACK_CELL
+xi125 net01024 net0536 net0524 net01023 net0535 net0523 net0722 net0796 net0792 net0721 net0795 net0791 BLACK_CELL
+xi124 net01030 net0554 net0566 net01029 net0553 net0565 net0724 net0802 net0806 net0723 net0801 net0805 BLACK_CELL
+xi123 net01036 net0560 net0548 net01035 net0559 net0547 net0726 net0804 net0800 net0725 net0803 net0799 BLACK_CELL
+xi122 net01042 net0584 net0572 net01041 net0583 net0571 net0728 net0812 net0808 net0727 net0811 net0807 BLACK_CELL
+xi121 net01048 net0566 net0584 net01047 net0565 net0583 net0730 net0806 net0812 net0729 net0805 net0811 BLACK_CELL
+xi120 net01054 net0548 net0578 net01053 net0547 net0577 net0732 net0800 net0810 net0731 net0799 net0809 BLACK_CELL
+xi119 net01060 net0578 net0590 net01059 net0577 net0589 net0734 net0810 net0814 net0733 net0809 net0813 BLACK_CELL
+xi118 net01066 net0572 net0602 net01065 net0571 net0601 net0736 net0808 net0818 net0735 net0807 net0817 BLACK_CELL
+xi117 net01072 net0590 net0608 net01071 net0589 net0607 net0738 net0814 net0820 net0737 net0813 net0819 BLACK_CELL
+xi116 net01078 net0638 net0656 net01077 net0637 net0655 net0740 net0830 net0836 net0739 net0829 net0835 BLACK_CELL
+xi115 net01084 net0620 net0650 net01083 net0619 net0649 net0742 net0824 net0834 net0741 net0823 net0833 BLACK_CELL
+xi114 net01090 net0626 net0638 net01089 net0625 net0637 net0744 net0826 net0830 net0743 net0825 net0829 BLACK_CELL
+xi113 net01096 net0596 net0626 net01095 net0595 net0625 net0746 net0816 net0826 net0745 net0815 net0825 BLACK_CELL
+xi112 net01102 net0614 net0632 net01101 net0613 net0631 net0748 net0822 net0828 net0747 net0821 net0827 BLACK_CELL
+xi111 net01108 net0632 net0620 net01107 net0631 net0619 net0750 net0828 net0824 net0749 net0827 net0823 BLACK_CELL
+xi110 net01114 net0608 net0596 net01113 net0607 net0595 net0752 net0820 net0816 net0751 net0819 net0815 BLACK_CELL
+xi109 net01120 net0602 net0614 net01119 net0601 net0613 net0754 net0818 net0822 net0753 net0817 net0821 BLACK_CELL
+xi107 net0911 net0650 net0914 net0910 net0649 net0661 net0693 net0834 net0509 net0689 net0833 net0507 BLACK_CELL
+xi106 net0917 net0656 net0920 net0916 net0655 net0918 net0684 net0836 net0832 net0671 net0835 net0831 BLACK_CELL
+xi105 net0923 net0914 net0674 net0922 net0661 net0673 net0676 net0509 net0842 net0695 net0507 net0687 BLACK_CELL
+xi104 net0929 net0920 net0668 net0928 net0918 net0667 net0652 net0832 net0840 net0699 net0831 net0701 BLACK_CELL
+xi103 net0935 net0674 net0686 net0934 net0673 net0936 net0670 net0842 net0846 net0692 net0687 net0539 BLACK_CELL
+xi102 net0941 net0668 net0944 net0940 net0667 net0679 net0702 net0840 net0844 net0690 net0701 net0843 BLACK_CELL
+xi101 net0947 net0686 net20 net0946 net0936 net19 net0682 net0846 net86 net0681 net0539 net78 BLACK_CELL
+xi100 net0953 net0944 net24 net0952 net0679 net35 net0580 net0844 net79 net0579 net0843 net81 BLACK_CELL
+xi71 net0524 net092 net096 net0523 net093 net097 net0792 net0257 net0261 net0791 net0258 net0262 BLACK_CELL
+xi70 net0530 net0100 net092 net0529 net0101 net093 net0794 net0265 net0257 net0793 net0266 net0258 BLACK_CELL
+xi69 net0536 net0104 net0100 net0535 net0105 net0101 net0796 net0269 net0265 net0795 net0270 net0266 BLACK_CELL
+xi68 net0542 net096 net0120 net0541 net097 net0121 net0798 net0261 net0285 net0797 net0262 net0286 BLACK_CELL
+xi67 net0548 net0108 net0136 net0547 net0109 net0137 net0800 net0273 net0301 net0799 net0274 net0302 BLACK_CELL
+xi66 net0554 net0120 net0116 net0553 net0121 net0117 net0802 net0285 net0281 net0801 net0286 net0282 BLACK_CELL
+xi65 net0560 net0116 net0112 net0559 net0117 net0113 net0804 net0281 net0277 net0803 net0282 net0278 BLACK_CELL
+xi64 net0566 net0112 net0108 net0565 net0113 net0109 net0806 net0277 net0273 net0805 net0278 net0274 BLACK_CELL
+xi63 net0572 net0124 net0128 net0571 net0125 net0129 net0808 net0289 net0293 net0807 net0290 net0294 BLACK_CELL
+xi62 net0578 net0132 net0124 net0577 net0133 net0125 net0810 net0297 net0289 net0809 net0298 net0290 BLACK_CELL
+xi61 net0584 net0136 net0132 net0583 net0137 net0133 net0812 net0301 net0297 net0811 net0302 net0298 BLACK_CELL
+xi60 net0590 net0128 net0152 net0589 net0129 net0153 net0814 net0293 net0317 net0813 net0294 net0318 BLACK_CELL
+xi59 net0596 net0144 net0168 net0595 net0145 net0169 net0816 net0309 net0333 net0815 net0310 net0334 BLACK_CELL
+xi58 net0602 net0152 net0148 net0601 net0153 net0149 net0818 net0317 net0313 net0817 net0318 net0314 BLACK_CELL
+xi57 net0608 net0148 net0140 net0607 net0149 net0141 net0820 net0313 net0305 net0819 net0314 net0306 BLACK_CELL
+xi56 net0614 net0140 net0144 net0613 net0141 net0145 net0822 net0305 net0309 net0821 net0306 net0310 BLACK_CELL
+xi55 net0620 net0160 net0156 net0619 net0161 net0157 net0824 net0325 net0321 net0823 net0326 net0322 BLACK_CELL
+xi54 net0626 net0164 net0160 net0625 net0165 net0161 net0826 net0329 net0325 net0825 net0330 net0326 BLACK_CELL
+xi53 net0632 net0168 net0164 net0631 net0169 net0165 net0828 net0333 net0329 net0827 net0334 net0330 BLACK_CELL
+xi52 net0638 net0156 net0184 net0637 net0157 net0185 net0830 net0321 net0345 net0829 net0322 net0346 BLACK_CELL
+xi51 net0920 net0176 net0200 net0918 net0177 net0201 net0832 net0339 net0355 net0831 net0340 net0356 BLACK_CELL
+xi50 net0650 net0184 net0180 net0649 net0185 net0181 net0834 net0345 net0341 net0833 net0346 net0342 BLACK_CELL
+xi49 net0656 net0180 net0172 net0655 net0181 net0173 net0836 net0341 net0337 net0835 net0342 net0338 BLACK_CELL
+xi48 net0914 net0172 net0176 net0661 net0173 net0177 net0509 net0337 net0339 net0507 net0338 net0340 BLACK_CELL
+xi47 net0668 net0196 net0192 net0667 net0197 net0193 net0840 net0353 net0351 net0701 net0354 net0352 BLACK_CELL
+xi46 net0674 net0200 net0196 net0673 net0201 net0197 net0842 net0355 net0353 net0687 net0356 net0354 BLACK_CELL
+xi45 net0944 net0188 net1 net0679 net0189 net2 net0844 net0349 net90 net0843 net0350 net49 BLACK_CELL
+xi44 net0686 net0192 net0188 net0936 net0193 net0189 net0846 net0351 net0349 net0539 net0352 net0350 BLACK_CELL
+xi8 net20 net1 net5 net19 net2 net38 net86 net90 net96 net78 net49 net03 BLACK_CELL
+xi7 net24 net5 net9 net35 net38 net37 net79 net96 net82 net81 net03 net05 BLACK_CELL
+xi99 net0105 net01336 net0270 net0549 s31 SP_XOR
+xi98 net0101 net01338 net0266 net0550 s30 SP_XOR
+xi97 net093 net01340 net0258 net0551 s29 SP_XOR
+xi96 net097 net01342 net0262 net0552 s28 SP_XOR
+xi95 net0109 net01344 net0274 net0609 s24 SP_XOR
+xi94 net0113 net01346 net0278 net0582 s25 SP_XOR
+xi93 net0117 net01348 net0282 net0555 s26 SP_XOR
+xi92 net0121 net01350 net0286 net0556 s27 SP_XOR
+xi91 net0137 net01352 net0302 net0557 s23 SP_XOR
+xi90 net0133 net01354 net0298 net0558 s22 SP_XOR
+xi89 net0125 net01356 net0290 net0593 s21 SP_XOR
+xi88 net0129 net01358 net0294 net0599 s20 SP_XOR
+xi87 net0145 net01360 net0310 net0561 s16 SP_XOR
+xi86 net0141 net01362 net0306 net0562 s17 SP_XOR
+xi85 net0149 net01364 net0314 net0563 s18 SP_XOR
+xi84 net0153 net01366 net0318 net0564 s19 SP_XOR
+xi83 net0169 net01594 net0334 net01267 s15 SP_XOR
+xi82 net0165 net01370 net0330 net0600 s14 SP_XOR
+xi81 net0161 net01372 net0326 net01186 s13 SP_XOR
+xi80 net0157 net01570 net0322 net01304 s12 SP_XOR
+xi79 net0177 net01376 net0340 net0569 s8 SP_XOR
+xi78 net0173 net01378 net0338 net01189 s9 SP_XOR
+xi77 net0181 net01582 net0342 net01190 s10 SP_XOR
+xi76 net0185 net01574 net0346 net0604 s11 SP_XOR
+xi75 net0201 net01384 net0356 net0573 s7 SP_XOR
+xi74 net0197 net01184 net0354 net0892 s6 SP_XOR
+xi73 net0193 net01388 net0352 net01275 s5 SP_XOR
+xi72 net0189 net01001 net0350 net068 s4 SP_XOR
+xi12 net2 net01585 net49 net0894 s3 SP_XOR
+xi11 net38 net01262 net03 net64 s2 SP_XOR
+xi10 net37 net01524 net05 net83 s1 SP_XOR
+xi9 net14 vdd! net07 0 s0 SP_XOR
+.ends PPA
+** End of subcircuit definition.
+
+** Library name: my
+** Cell name: PPA_test
+** View name: schematic
+c32 ov 0 1e-15
+c31 s24 0 1e-15
+c30 s25 0 1e-15
+c29 s26 0 1e-15
+c28 s27 0 1e-15
+c27 s20 0 1e-15
+c26 s21 0 1e-15
+c25 s22 0 1e-15
+c24 s23 0 1e-15
+c23 s16 0 1e-15
+c22 s17 0 1e-15
+c21 s18 0 1e-15
+c20 s19 0 1e-15
+c19 s12 0 1e-15
+c18 s13 0 1e-15
+c17 s14 0 1e-15
+c16 s15 0 1e-15
+c15 s11 0 1e-15
+c14 s10 0 1e-15
+c13 s9 0 1e-15
+c12 s8 0 1e-15
+c11 s7 0 1e-15
+c10 s6 0 1e-15
+c9 s5 0 1e-15
+c8 s4 0 1e-15
+c7 s28 0 1e-15
+c6 s29 0 1e-15
+c5 s30 0 1e-15
+c4 s31 0 1e-15
+c3 s0 0 1e-15
+c2 s1 0 1e-15
+c1 s2 0 1e-15
+c0 s3 0 1e-15
+v0 vdd! 0 DC=1.1
+xi135 net0332 net0331 b16 net0320 b17 net0190 pc PC_CTRL
+xi134 net0193 net0333 b18 net0192 b19 net0316 pc PC_CTRL
+xi133 net0336 net0335 b20 net0315 b21 net0321 pc PC_CTRL
+xi132 net0201 net0337 b22 net0200 b23 net0202 pc PC_CTRL
+xi131 net0292 net0339 b26 net0304 b27 net0293 pc PC_CTRL
+xi130 net0342 net0298 b28 net0295 b29 net0228 pc PC_CTRL
+xi129 net0344 net0343 b30 net0299 b31 net0233 pc PC_CTRL
+xi128 net0346 net0290 b24 net0287 b25 net0322 pc PC_CTRL
+xi116 net0169 net0265 b6 net0318 b7 net0324 pc PC_CTRL
+xi119 net0260 net0167 b4 net0164 b5 net0327 pc PC_CTRL
+xi118 net0161 net0261 b2 net0160 b3 net0328 pc PC_CTRL
+xi117 net0264 net0159 b0 net0156 b1 net0158 pc PC_CTRL
+xi103 net0145 net0147 a26 net0144 a27 net0146 pc PC_CTRL
+xi102 net0149 net0151 a28 net0148 a29 net0150 pc PC_CTRL
+xi101 net0153 net0155 a30 net0152 a31 net0154 pc PC_CTRL
+xi100 net0141 net0143 a24 net0140 a25 net0142 pc PC_CTRL
+xi95 net0129 net0131 a18 net0128 a19 net0130 pc PC_CTRL
+xi94 net0133 net0135 a20 net0132 a21 net0134 pc PC_CTRL
+xi93 net0137 net0139 a22 net0136 a23 net0138 pc PC_CTRL
+xi92 net0125 net0127 a16 net0124 a17 net0126 pc PC_CTRL
+xi87 net0113 net0115 a10 net0112 a11 net0114 pc PC_CTRL
+xi86 net0117 net0119 a12 net0116 a13 net0118 pc PC_CTRL
+xi85 net0121 net0123 a14 net0120 a15 net0122 pc PC_CTRL
+xi84 net0109 net0111 a8 net0108 a9 net0110 pc PC_CTRL
+xi70 net0262 net0247 b8 net0204 b9 net0174 pc PC_CTRL
+xi68 net0209 net0211 b10 net0208 b11 net0210 pc PC_CTRL
+xi66 net0181 net0215 b12 net0212 b13 net0182 pc PC_CTRL
+xi64 net0217 net0187 b14 net0216 b15 net0186 pc PC_CTRL
+xi79 net21 net23 a2 net20 a3 net22 pc PC_CTRL
+xi77 net29 net31 a6 net28 a7 net30 pc PC_CTRL
+xi78 net25 net27 a4 net24 a5 net26 pc PC_CTRL
+xi76 net17 net19 a0 net16 a1 net18 pc PC_CTRL
+
+v26	a0	0	PULSE	!A0_	A0_		0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v31	a1	0	PULSE	!A1_	A1_		0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v25	a2	0	PULSE	!A2_	A2_		0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v30	a3	0	PULSE	!A3_	A3_		0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v24	a4	0	PULSE	!A4_	A4_		0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v29	a5	0	PULSE	!A5_	A5_		0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v27	a6	0	PULSE	!A6_	A6_		0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v28	a7	0	PULSE	!A7_	A7_		0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v34	a8	0	PULSE	!A8_	A8_		0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v39	a9	0	PULSE	!A9_	A9_		0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v33	a10	0	PULSE	!A10_	A10_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v38	a11	0	PULSE	!A11_	A11_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v32	a12	0	PULSE	!A12_	A12_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v37	a13	0	PULSE	!A13_	A13_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v35	a14	0	PULSE	!A14_	A14_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v36	a15	0	PULSE	!A15_	A15_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v42	a16	0	PULSE	!A16_	A16_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v47	a17	0	PULSE	!A17_	A17_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v41	a18	0	PULSE	!A18_	A18_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v46	a19	0	PULSE	!A19_	A19_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v40	a20	0	PULSE	!A20_	A20_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v45	a21	0	PULSE	!A21_	A21_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v43	a22	0	PULSE	!A22_	A22_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v44	a23	0	PULSE	!A23_	A23_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v50	a24	0	PULSE	!A24_	A24_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v55	a25	0	PULSE	!A25_	A25_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v49	a26	0	PULSE	!A26_	A26_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v54	a27	0	PULSE	!A27_	A27_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v48	a28	0	PULSE	!A28_	A28_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v53	a29	0	PULSE	!A29_	A29_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v51	a30	0	PULSE	!A30_	A30_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v52	a31	0	PULSE	!A31_	A31_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+
+
+v65	b0	0	PULSE	!B0_	B0_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v69	b1	0	PULSE	!B1_	B1_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v64	b2	0	PULSE	!B2_	B2_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v68	b3	0	PULSE	!B3_	B3_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v66	b4	0	PULSE	!B4_	B4_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v70	b5	0	PULSE	!B5_	B5_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v67	b6	0	PULSE	!B6_	B6_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v71	b7	0	PULSE	!B7_	B7_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v23	b8	0	PULSE	!B8_	B8_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v22	b9	0	PULSE	!B9_	B9_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v21	b10	0	PULSE	!B10_	B10_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v20	b11	0	PULSE	!B11_	B11_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v19	b12	0	PULSE	!B12_	B12_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v18	b13	0	PULSE	!B13_	B13_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v17	b14	0	PULSE	!B14_	B14_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v16	b15	0	PULSE	!B15_	B15_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v81	b16	0	PULSE	!B16_	B16_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v86	b17	0	PULSE	!B17_	B17_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v82	b18	0	PULSE	!B18_	B18_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v87	b19	0	PULSE	!B19_	B19_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v80	b20	0	PULSE	!B20_	B20_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v85	b21	0	PULSE	!B21_	B21_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v83	b22	0	PULSE	!B22_	B22_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v84	b23	0	PULSE	!B23_	B23_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v74	b24	0	PULSE	!B24_	B24_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v79	b25	0	PULSE	!B25_	B25_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v73	b26	0	PULSE	!B26_	B26_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v78	b27	0	PULSE	!B27_	B27_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v72	b28	0	PULSE	!B28_	B28_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v77	b29	0	PULSE	!B29_	B29_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v75	b30	0	PULSE	!B30_	B30_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+v76	b31	0	PULSE	!B31_	B31_	0.00E+00	1.00E-11	1.00E-11	3.00E-09	5.00E-09
+
+
+
+v1 pc 0 PULSE 0 1.1 0 10e-12 10e-12 2.6E-9 5E-9
+
+xi34 net16 net17 net18 net0112 net0113 net0114 net0115 net0116 net0117 net0118 net0119 net0120 net0121 net0122 net0123 net0124 net0125 net0126 net0127 net0128 net0129 net0130 net0131 net19 net20 net0132 net0133 net0134 net0135 net0136 net0137 net0138 net0139 net0140 net0141 net0142 net0143 net0144 net0145 net0146 net0147 net0148 net0149 net0150 net0151 net21 net22 net0152 net0153 net0154 net0155 net23 net24 net25 net26 net27 net28 net29 net30 net31 net0108 net0109 net0110 net0111 net0156 net0264 net0158 net0208 net0209 net0210 net0211 net0212 net0181 net0182 net0215 net0216 net0217 net0186 net0187 net0320 net0332 net0190 net0331 net0192 net0193 net0316 net0333 net0159 net0160 net0315 net0336 net0321 net0335 net0200 net0201 net0202 net0337 net0287 net0346 net0322 net0290 net0304 net0292 net0293 net0339 net0295 net0342 net0228 net0298 net0161 net0328 net0299 net0344 net0233 net0343 net0261 net0164 net0260 net0327 net0167 net0318 net0169 net0324 net0265 net0204 net0262 net0174 net0247 ov s0 s1 s10 s11 s12 s13
++s14 s15 s16 s17 s18 s19 s2 s20 s21 s22 s23 s24 s25 s26 s27 s28 s29 s3 s30 s31 s4 s5 s6 s7 s8 s9 PPA
+.END
